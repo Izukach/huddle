@@ -71,7 +71,7 @@ button:hover {
 }
 .icons-div {
   color: #ffff;
-  width: 106px;
+  width: 126px;
   height: 50px;
   display: flex;
   justify-content: space-around;
@@ -115,6 +115,17 @@ button:hover {
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 768px) {
+  .banner-img {
+    width: 100%;
+    height: 361px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #banner-img {
+    object-fit: contain;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .info-div {
@@ -127,6 +138,8 @@ button:hover {
   .info-div-two {
     margin: auto;
     margin-bottom: 20px;
+    width: 267px;
+    text-align: center;
   }
 }
 
@@ -147,6 +160,6 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
   header {
-    padding-left: 33px;
+    padding: 0px;
   }
 }
